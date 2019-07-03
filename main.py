@@ -280,5 +280,5 @@ async def _background_():
                     print("Keep being social")
 
 client.loop.create_task(_background_())
-client.run("NTk1NzU4Mzg1MzgzNzM1MzE3.XRvp3g.TxrMPjFbQO5-xLvX3tdtv0OaGHg")
+client.run("NTI3OTYyNjAwMjMxNzk2NzM5.XRzVDg.lxZUhmNVRFLsr3VLAA9v5ftG2sc")
 
