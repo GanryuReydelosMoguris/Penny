@@ -62,7 +62,7 @@ async def dating(message):
     if (advice == 5):
         await client.send_message(message.channel, "Get married!")
     if (advice == 6):
-        await client.send_message(message.channel, "Ask them if you can braid their hair")
+        await client.send_message(message.channel, "Are you sure its not a trap?")
     if (advice == 7):
         await client.send_message(message.channel, "Have a nice time!")
     if (advice == 8):
@@ -186,7 +186,7 @@ async def messageDelivery(message):
                 if random.randint(0, 15) == 10:
                     await client.send_message(message.channel, "Does this inspire you to kill things, milady?")
 
-            if message.author.id == "527962600231796739": #Christian
+            if message.author.id == "187347744141213697": #Christian
                 if random.randint(0, 15) == 10:
                     await client.send_message(message.channel, "(Psst. Someone tell him I'm not actually a penny,"
                                                                " that's just my name.)")
@@ -204,7 +204,8 @@ async def messageDelivery(message):
 
             if message.author.id == "338542120782528514": #Michael
                 if random.randint(0, 15) == 10:
-                    await client.send_message(message.channel, "You are feeling sleepy... you are feeling..zzzz....")
+                    await client.send_message(message.channel, "So, can *I* play an Aarakocra Mystic? I promise"
+                                                               "not to abuse it... much.")
 
             if message.author.id == "307322500549836800": #Jared
                 if random.randint(0, 15) == 10:
